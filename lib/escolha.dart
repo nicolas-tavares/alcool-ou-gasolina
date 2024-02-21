@@ -14,10 +14,11 @@ class _escolhaState extends State<escolha> {
   String _textoResultado = "";
 
 
-  //Função calcular
+  //Função para calcular qual vale mais a pena
+  
   void _calcular(){
 
-    double? precoAlcool = double.tryParse(_controllerAlcool.text);
+    double? precoAlcool = double.tryParse(_controllerAlcool.text);   //Parse ou TryParse -> Conversão de variaveis
     double? precoGasolina = double.tryParse(_controllerGasolina.text);
 
 
